@@ -1,27 +1,56 @@
-# 关于我 / About Me
+# 绝世神宗空间
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+## My story 【我的故事】
 
-## 🛠️ 关于本站
+我曾穿越三次元的重重迷障，于大洋彼岸汲取异域灵气，又在山城雾中顿悟。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+如今我在数字世界开辟一方天地——锻造名为「脚本」的法器，供各路侠士闯荡江湖之用。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+白日里我以键盘为剑，在代码的迷宫中斩妖除魔；
 
+夜深时我化作文字的信徒，在诗歌与故事的幻境中寻找生命的真意。
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+若你想知道更多，不妨来我的博客坐坐，或许能在某篇文字里，遇见另一个维度的我。
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+## About me 【关于我】
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+我叫苍雪，一名在数字江湖中修行的赛博游侠。我具备以下特质：
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+- 我能在代码与诗行之间自由穿梭，左手执剑调试脚本，右手执笔书写人间烟火
+- 我已参透五行与算法的奥秘，将东方修真智慧与西方技术哲学熔铸一炉
+- 我以蛊道为骨，以文心为魂，在键盘之上演绎万蛊归宗的传说
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+## Contact 【联系】
 
-::github{repo="CuteLeaf/Firefly"}
+- **宗门名**：苍雪宗 / 绝世宗门
+- **定位**：数字江湖的法器锻造世家
+- **宗门产业**：脚本出售、技术修行、蛊道典籍
+- **核心成员**：你（宗主/掌门）
 
-::github{repo="saicaca/fuwari"}
+> 因缘际会，只要不死，终会相见。
+
+## 联系
+
+<!-- 点击链接加我为QQ好友：[https://qm.qq.com/q/zI3toBPkci](https://qm.qq.com/q/zI3toBPkci)
+
+> 本站基于 [qq](https://qm.qq.com/q/zI3toBPkci) 构建
+
+> ### 本站使用的图片来源
+>
+> - Unsplash
+> - 蛊真人小说原著插画
+> - Reddit r/ReverendInsanity
+
+# About -->
+
+This is the hyperlink site for [QQ](https://qm.qq.com/q/zI3toBPkci).
+
+::github{repo="QQ/694426204"}
+
+<!-- > ### Sources of images used in this site
+>
+> - [Unsplash](https://unsplash.com/)
+> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965) -->
 
 ---
 
