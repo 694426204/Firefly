@@ -1,6 +1,7 @@
 ---
 title: 《蛊真人》诗集·第二辑：十二尊者成尊诗
 published: 2026-07-26
+pinned: true
 description: 十二位尊者的成尊诗篇，共22首，展现各大道主的风采
 image: "./cover.png"
 tags: ["蛊真人", "诗集", "十二尊者", "成尊诗"]

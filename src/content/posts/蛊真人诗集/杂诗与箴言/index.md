@@ -1,6 +1,7 @@
 ---
 title: 《蛊真人》诗集·第四辑：杂诗与箴言
 published: 2026-07-26
+pinned: true
 description: 方源的名言、箴言与杂诗，共8首
 image: "./cover.png"
 tags: ["蛊真人", "诗集", "箴言", "方源"]
