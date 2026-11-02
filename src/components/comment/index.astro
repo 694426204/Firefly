@@ -28,7 +28,7 @@ const path = customPath
 			? `/posts/${slug}`
 			: `/${slug}`
 		: `/${slug}`;
-const url = `${Astro.site?.href}${path}`;
+const url = `${Astro.site?.href.replace(/\/$/, "")}${path}`;
 const postTitle = post && "title" in post.data ? post.data.title : undefined;
 
 // 强制commentService类型为string，避免类型不兼容警告

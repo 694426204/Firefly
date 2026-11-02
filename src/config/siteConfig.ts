@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "绝世仙窍世界！世界有南疆、北原、西漠、东海、中州五域环绕，此为宇。又有一条光阴长河，贯穿过去、现在、未来，此为宙。",
 
 	// 站点 URL
-	site_url: "https://book-v.jueshi.de5.net/",
+	site_url: "https://694426204.github.io/Firefly/",
 
 	// 站点描述
 	description:
