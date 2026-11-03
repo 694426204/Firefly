@@ -3,6 +3,10 @@
 	"compatibility_date": "2025-01-01",
 	"compatibility_flags": ["nodejs_compat"],
 	"assets": {
-		"directory": "./dist"
+		"directory": "./dist",
+		// Astro 静态产物以 /about/index.html 形式输出，需要自动补全斜杠
+		"html_handling": "auto-trailing-slash",
+		// 让 404 走 Astro 生成的 404.html，而不是 Workers 默认的纯文本错误页
+		"not_found_handling": "404-page"
 	}
 }

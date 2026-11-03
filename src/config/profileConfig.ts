@@ -36,7 +36,9 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "694426204@qq.com",
+			// 必须带 mailto: 前缀，否则会被当成站内相对路径（404），
+			// 同时也会绕过 Profile.astro 里对邮箱的 base64 混淆逻辑，导致邮箱明文出现在 HTML 中
+			url: "mailto:694426204@qq.com",
 			showName: false,
 		},
 		{

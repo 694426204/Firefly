@@ -4,6 +4,15 @@ import type { SiteConfig } from "@/types/siteConfig";
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru', 'ko'。
 const SITE_LANG = "zh_CN";
 
+// 站点 URL 需要跟随实际部署目标变化，否则页脚「站点域名」、RSS、sitemap 里的绝对地址会指向别的站。
+// 优先级：SITE_URL（自定义域名，最准） > CF_PAGES_URL（Cloudflare 预览域名） > 默认的 GitHub Pages 地址。
+// 注意：此文件同时被浏览器端组件引入，需用 typeof 守卫避免在客户端访问 process。
+const runtimeEnv =
+	typeof process !== "undefined" && process.env
+		? (process.env as Record<string, string | undefined>)
+		: undefined;
+const envSiteUrl = runtimeEnv?.SITE_URL || runtimeEnv?.CF_PAGES_URL || "";
+
 export const siteConfig: SiteConfig = {
 	// 站点标题
 	title: "绝世仙道堂",
@@ -12,7 +21,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "绝世仙窍世界！世界有南疆、北原、西漠、东海、中州五域环绕，此为宇。又有一条光阴长河，贯穿过去、现在、未来，此为宙。",
 
 	// 站点 URL
-	site_url: "https://694426204.github.io/Firefly/",
+	site_url: envSiteUrl || "https://694426204.github.io/Firefly/",
 
 	// 站点描述
 	description:

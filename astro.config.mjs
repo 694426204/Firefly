@@ -61,11 +61,21 @@ const adapter = process.env.CF_WORKERS
 		})
 	: undefined;
 
+// ---------- 部署目标自适应 ----------
+// Astro 的 base 只影响 HTML 里的 URL 前缀，不会给输出目录加子目录，
+// 因此 base 必须与站点实际挂载路径一致，否则所有 CSS/JS/图片都会 404（页面变成无样式的裸 HTML）。
+//   · GitHub Pages：仓库发布到 https://<user>.github.io/<repo>/ -> 需要 "/Firefly/"
+//   · Cloudflare Pages / Workers：站点挂在域名根 -> 需要 "/"
+// 可用环境变量强制覆盖：SITE_BASE（路径前缀）、SITE_URL（站点域名）
+const isCloudflare = Boolean(process.env.CF_PAGES || process.env.CF_WORKERS);
+const base = process.env.SITE_BASE ?? (isCloudflare ? "/" : "/Firefly/");
+const site = process.env.SITE_URL ?? siteConfig.site_url;
+
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.site_url,
+	site,
 
-	base: "/Firefly/",
+	base,
 	trailingSlash: "always",
 
 	// 字体配置 - 只加载实际使用的字体，跳过未引用的以加快构建
